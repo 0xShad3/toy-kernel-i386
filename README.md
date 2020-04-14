@@ -6,7 +6,7 @@ This repository is my first attempt to implement a toy kernel for IBM-PC compati
 Under Development, (early stage)
 
 ## Compile & Run
-To compile and run this kernel image you need a multiboot compliant bootloader e.g. GRUB. If you are on a linux distro the chances are that GRUB is already installed on your system. To simplify the compilation process a make script will added in the future. For now you can use the bash script in found in the repo
+To compile and run this kernel image you need a multiboot compliant bootloader e.g. GRUB. If you are on a linux distro the chances are that GRUB is already installed on your system. To simplify the compilation process a make script now added!
 
 You need to have the following modules installed to be able to run the kernel:
 - assembler
@@ -21,7 +21,7 @@ Assuming you are on a Linux Distro:
 Run the following commands  
 ```bash
 git clone https://github.com/0xShad3/toy-kernel-i386.git
-cd toy-kernel-i386/bootup
+cd toy-kernel-i386/
 chmod +x run.sh
 ./run.sh
 ```
